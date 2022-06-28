@@ -1,9 +1,11 @@
 [
   {
-    "did": 1,
+    "did": 11,
     "name": "OG1",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b02",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-1-walk-export.png",
     "attributes": [
       {
@@ -40,7 +42,9 @@
     "did": 2,
     "name": "OG2",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b03",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-2-Walk-export-export.png",
     "attributes": [
       {
@@ -74,10 +78,12 @@
     "voucher": 10
   },
   {
-    "did": 3,
+    "did": 31,
     "name": "Beta Tester1",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b04",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolboy-02-export-export.png",
     "attributes": [
       {
@@ -111,10 +117,12 @@
     "voucher": 10000
   },
   {
-    "did": 4,
+    "did": 41,
     "name": "Beta Tester2",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b05",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolgirl-02-export-export.png",
     "attributes": [
       {
@@ -148,10 +156,12 @@
     "voucher": 100000
   },
   {
-    "did": 5,
+    "did": 51,
     "name": "Halloween1",
     "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b06",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
     "attributes": [
       {
@@ -185,10 +195,13 @@
     "voucher": 10
   },
   {
-    "did": 6,
+    "did": 61,
     "name": "Monsta Party #1",
     "external_url": "https://app.monsta.party",
     "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b06",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
     "attributes": [
       {
@@ -277,10 +290,12 @@
     "voucher": 5
   },
   {
-    "did": 7,
+    "did": 71,
     "name": "OG1",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b07",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-1-walk-export.png",
     "attributes": [
       {
@@ -314,10 +329,12 @@
     "voucher": 100
   },
   {
-    "did": 8,
+    "did": 81,
     "name": "OG2",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b08",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-2-Walk-export-export.png",
     "attributes": [
       {
@@ -351,10 +368,12 @@
     "voucher": 5
   },
   {
-    "did": 9,
+    "did": 91,
     "name": "Beta Tester1",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b09",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolboy-02-export-export.png",
     "attributes": [
       {
@@ -388,10 +407,12 @@
     "voucher": 10000
   },
   {
-    "did": 10,
+    "did": 101,
     "name": "Beta Tester2",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b10",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolgirl-02-export-export.png",
     "attributes": [
       {
@@ -425,10 +446,12 @@
     "voucher": 100000
   },
   {
-    "did": 11,
+    "did": 111,
     "name": "Halloween1",
     "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b11",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
     "attributes": [
       {
@@ -462,10 +485,13 @@
     "voucher": 10
   },
   {
-    "did": 12,
+    "did": 121,
     "name": "Monsta Party #1",
     "external_url": "https://app.monsta.party",
     "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",
+      "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b06",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
     "attributes": [
       {
@@ -554,10 +580,12 @@
     "voucher": 5
   },
   {
-    "did": 13,
+    "did": 131,
     "name": "OG1",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b12",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-1-walk-export.png",
     "attributes": [
       {
@@ -591,10 +619,12 @@
     "voucher": 10
   },
   {
-    "did": 14,
+    "did": 141,
     "name": "OG2",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b13",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-2-Walk-export-export.png",
     "attributes": [
       {
@@ -628,10 +658,12 @@
     "voucher": 10
   },
   {
-    "did": 15,
+    "did": 151,
     "name": "Beta Tester1",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b14",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolboy-02-export-export.png",
     "attributes": [
       {
@@ -665,10 +697,12 @@
     "voucher": 10000
   },
   {
-    "did": 16,
+    "did": 161,
     "name": "Beta Tester2",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b15",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolgirl-02-export-export.png",
     "attributes": [
       {
@@ -702,10 +736,12 @@
     "voucher": 100000
   },
   {
-    "did": 17,
+    "did": 171,
     "name": "Halloween1",
     "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
-    "type": "object",
+    "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b16",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
     "attributes": [
       {
@@ -739,10 +775,13 @@
     "voucher": 10
   },
   {
-    "did": 18,
+    "did": 181,
     "name": "Monsta Party #1",
     "external_url": "https://app.monsta.party",
     "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",
+      "type": "oasis-crypto",
+    "chainId": "bsc",
+    "address":"0x5Ce6B303b0d2BCA7Ce9B724Ba10210D1684c6b06",
     "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
     "attributes": [
       {
