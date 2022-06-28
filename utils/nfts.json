@@ -1,0 +1,833 @@
+[
+  {
+    "id": 1,
+    "name": "OG1",
+    "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-1-walk-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-og1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og1/comb-People-1-idle-accesories-export-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og1/comb-People-1-walk-accesories-export-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 10
+  },
+  {
+    "id": 2,
+    "name": "OG2",
+    "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-2-Walk-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-og2"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og2/comb-People-2-idle-clothes-export-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og2/Comb-People-2-walk-clothes-export-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 10
+  },
+  {
+    "id": 3,
+    "name": "Beta Tester1",
+    "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolboy-02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-beta1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta3/Comb-schoolboy-01-frame_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta3/comb-schoolboy-01-frame_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.6,
+    "voucher": 10000
+  },
+  {
+    "id": 4,
+    "name": "Beta Tester2",
+    "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolgirl-02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-beta2"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta4/comb-schoolgirl-01-frame_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta4/comb-schoolgirl-01-frame_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.5,
+    "voucher": 100000
+  },
+  {
+    "id": 5,
+    "name": "Halloween1",
+    "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-halloween1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/QmU3bqYMGmCwg2ZE4xBSkTeku2CZ5ADtDusMYHPGvu33Bh/comb-halloween-01-handfront_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/QmU3bqYMGmCwg2ZE4xBSkTeku2CZ5ADtDusMYHPGvu33Bh/comb-halloween-01-handfront_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 10
+  },
+  {
+    "id": 6,
+    "name": "Monsta Party #1",
+    "external_url": "https://app.monsta.party",
+    "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
+    "attributes": [
+      {
+        "display_type": "number",
+        "trait_type": "Token ID",
+        "value": 1
+      },
+      {
+        "trait_type": "background",
+        "value": "light_blue"
+      },
+      {
+        "trait_type": "skin-body",
+        "value": "blush"
+      },
+      {
+        "trait_type": "hats-hair",
+        "value": "graduate"
+      },
+      {
+        "trait_type": "clothes",
+        "value": "dungaree"
+      },
+      {
+        "trait_type": "eyes-glasses",
+        "value": "normal"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "normal"
+      },
+      {
+        "trait_type": "neck",
+        "value": "none"
+      },
+      {
+        "trait_type": "masks",
+        "value": "none"
+      },
+      {
+        "trait_type": "legendary",
+        "value": "none"
+      },
+      {
+        "trait_type": "key",
+        "value": "monsta_1",
+        "display_type": ""
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://gateway.pinata.cloud/ipfs/QmXG2Dv7FS7ynEXbHTDw9c2NqYjUUa6A1gcoeHcxCbFNGA",
+        "display_type": ""
+      },
+      {
+        "trait_type": "width",
+        "value": 384,
+        "display_type": ""
+      },
+      {
+        "trait_type": "image",
+        "value": "https://gateway.pinata.cloud/ipfs/QmXfEmEFdRv7ZQkLsvZPVLzfvXpKtsKjVs8G8De768G3Ku",
+        "display_type": ""
+      },
+      {
+        "trait_type": "category",
+        "value": "equipment",
+        "display_type": ""
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://gateway.pinata.cloud/ipfs/QmQf4GVewcLDQQ75ZFgpaSXfznF8LqAGsgGeemx3RAfiGs",
+        "display_type": ""
+      },
+      {
+        "trait_type": "height",
+        "value": 256,
+        "display_type": ""
+      },
+      {
+        "trait_type": "type",
+        "value": "costume",
+        "display_type": ""
+      }
+    ],
+    "promotionDiscount": 0.5,
+    "voucher": 5
+  },
+  {
+    "id": 7,
+    "name": "OG1",
+    "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-1-walk-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-og1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og1/comb-People-1-idle-accesories-export-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og1/comb-People-1-walk-accesories-export-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 100
+  },
+  {
+    "id": 8,
+    "name": "OG2",
+    "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-2-Walk-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-og2"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og2/comb-People-2-idle-clothes-export-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og2/Comb-People-2-walk-clothes-export-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 5
+  },
+  {
+    "id": 9,
+    "name": "Beta Tester1",
+    "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolboy-02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-beta1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta3/Comb-schoolboy-01-frame_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta3/comb-schoolboy-01-frame_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.6,
+    "voucher": 10000
+  },
+  {
+    "id": 10,
+    "name": "Beta Tester2",
+    "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolgirl-02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-beta2"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta4/comb-schoolgirl-01-frame_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta4/comb-schoolgirl-01-frame_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.5,
+    "voucher": 100000
+  },
+  {
+    "id": 11,
+    "name": "Halloween1",
+    "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-halloween1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/QmU3bqYMGmCwg2ZE4xBSkTeku2CZ5ADtDusMYHPGvu33Bh/comb-halloween-01-handfront_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/QmU3bqYMGmCwg2ZE4xBSkTeku2CZ5ADtDusMYHPGvu33Bh/comb-halloween-01-handfront_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 10
+  },
+  {
+    "id": 12,
+    "name": "Monsta Party #1",
+    "external_url": "https://app.monsta.party",
+    "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
+    "attributes": [
+      {
+        "display_type": "number",
+        "trait_type": "Token ID",
+        "value": 1
+      },
+      {
+        "trait_type": "background",
+        "value": "light_blue"
+      },
+      {
+        "trait_type": "skin-body",
+        "value": "blush"
+      },
+      {
+        "trait_type": "hats-hair",
+        "value": "graduate"
+      },
+      {
+        "trait_type": "clothes",
+        "value": "dungaree"
+      },
+      {
+        "trait_type": "eyes-glasses",
+        "value": "normal"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "normal"
+      },
+      {
+        "trait_type": "neck",
+        "value": "none"
+      },
+      {
+        "trait_type": "masks",
+        "value": "none"
+      },
+      {
+        "trait_type": "legendary",
+        "value": "none"
+      },
+      {
+        "trait_type": "key",
+        "value": "monsta_1",
+        "display_type": ""
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://gateway.pinata.cloud/ipfs/QmXG2Dv7FS7ynEXbHTDw9c2NqYjUUa6A1gcoeHcxCbFNGA",
+        "display_type": ""
+      },
+      {
+        "trait_type": "width",
+        "value": 384,
+        "display_type": ""
+      },
+      {
+        "trait_type": "image",
+        "value": "https://gateway.pinata.cloud/ipfs/QmXfEmEFdRv7ZQkLsvZPVLzfvXpKtsKjVs8G8De768G3Ku",
+        "display_type": ""
+      },
+      {
+        "trait_type": "category",
+        "value": "equipment",
+        "display_type": ""
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://gateway.pinata.cloud/ipfs/QmQf4GVewcLDQQ75ZFgpaSXfznF8LqAGsgGeemx3RAfiGs",
+        "display_type": ""
+      },
+      {
+        "trait_type": "height",
+        "value": 256,
+        "display_type": ""
+      },
+      {
+        "trait_type": "type",
+        "value": "costume",
+        "display_type": ""
+      }
+    ],
+    "promotionDiscount": 0.5,
+    "voucher": 5
+  },
+  {
+    "id": 13,
+    "name": "OG1",
+    "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-1-walk-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-og1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og1/comb-People-1-idle-accesories-export-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og1/comb-People-1-walk-accesories-export-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 10
+  },
+  {
+    "id": 14,
+    "name": "OG2",
+    "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-People-2-Walk-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-og2"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og2/comb-People-2-idle-clothes-export-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/og2/Comb-People-2-walk-clothes-export-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 10
+  },
+  {
+    "id": 15,
+    "name": "Beta Tester1",
+    "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolboy-02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-beta1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta3/Comb-schoolboy-01-frame_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta3/comb-schoolboy-01-frame_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.6,
+    "voucher": 10000
+  },
+  {
+    "id": 16,
+    "name": "Beta Tester2",
+    "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/square-Schoolgirl-02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-beta2"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta4/comb-schoolgirl-01-frame_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/Qmak72mTnoRCoprdbowr1WKLNaN8p1PBkM67pZiEK98qGU/beta4/comb-schoolgirl-01-frame_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.5,
+    "voucher": 100000
+  },
+  {
+    "id": 17,
+    "name": "Halloween1",
+    "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
+    "type": "object",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
+    "attributes": [
+      {
+        "trait_type": "key",
+        "value": "player-halloween1"
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/QmU3bqYMGmCwg2ZE4xBSkTeku2CZ5ADtDusMYHPGvu33Bh/comb-halloween-01-handfront_idle-export.png"
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://projectoasis.mypinata.cloud/ipfs/QmU3bqYMGmCwg2ZE4xBSkTeku2CZ5ADtDusMYHPGvu33Bh/comb-halloween-01-handfront_walk-export.png"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "width",
+        "value": 384
+      },
+      {
+        "display_type": "number",
+        "trait_type": "height",
+        "value": 384
+      },
+      {
+        "trait_type": "equipment",
+        "value": "skin"
+      }
+    ],
+    "promotionDiscount": 0.8,
+    "voucher": 10
+  },
+  {
+    "id": 18,
+    "name": "Monsta Party #1",
+    "external_url": "https://app.monsta.party",
+    "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",
+    "image": "https://projectoasis.mypinata.cloud/ipfs/QmPC9QLckVh9oNQDGKsfqvt6JzRRSCdtWuo7MgfyXRg6Un/Square-halloween02-export-export.png",
+    "attributes": [
+      {
+        "display_type": "number",
+        "trait_type": "Token ID",
+        "value": 1
+      },
+      {
+        "trait_type": "background",
+        "value": "light_blue"
+      },
+      {
+        "trait_type": "skin-body",
+        "value": "blush"
+      },
+      {
+        "trait_type": "hats-hair",
+        "value": "graduate"
+      },
+      {
+        "trait_type": "clothes",
+        "value": "dungaree"
+      },
+      {
+        "trait_type": "eyes-glasses",
+        "value": "normal"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "normal"
+      },
+      {
+        "trait_type": "neck",
+        "value": "none"
+      },
+      {
+        "trait_type": "masks",
+        "value": "none"
+      },
+      {
+        "trait_type": "legendary",
+        "value": "none"
+      },
+      {
+        "trait_type": "key",
+        "value": "monsta_1",
+        "display_type": ""
+      },
+      {
+        "trait_type": "animation-walk",
+        "value": "https://gateway.pinata.cloud/ipfs/QmXG2Dv7FS7ynEXbHTDw9c2NqYjUUa6A1gcoeHcxCbFNGA",
+        "display_type": ""
+      },
+      {
+        "trait_type": "width",
+        "value": 384,
+        "display_type": ""
+      },
+      {
+        "trait_type": "image",
+        "value": "https://gateway.pinata.cloud/ipfs/QmXfEmEFdRv7ZQkLsvZPVLzfvXpKtsKjVs8G8De768G3Ku",
+        "display_type": ""
+      },
+      {
+        "trait_type": "category",
+        "value": "equipment",
+        "display_type": ""
+      },
+      {
+        "trait_type": "animation-idle",
+        "value": "https://gateway.pinata.cloud/ipfs/QmQf4GVewcLDQQ75ZFgpaSXfznF8LqAGsgGeemx3RAfiGs",
+        "display_type": ""
+      },
+      {
+        "trait_type": "height",
+        "value": 256,
+        "display_type": ""
+      },
+      {
+        "trait_type": "type",
+        "value": "costume",
+        "display_type": ""
+      }
+    ],
+    "promotionDiscount": 0.5,
+    "voucher": 5
+  }
+]
