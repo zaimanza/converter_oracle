@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "did": 1,
     "name": "OG1",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
     "type": "object",
@@ -37,7 +37,7 @@
     "voucher": 10
   },
   {
-    "id": 2,
+    "did": 2,
     "name": "OG2",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
     "type": "object",
@@ -74,7 +74,7 @@
     "voucher": 10
   },
   {
-    "id": 3,
+    "did": 3,
     "name": "Beta Tester1",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
     "type": "object",
@@ -111,7 +111,7 @@
     "voucher": 10000
   },
   {
-    "id": 4,
+    "did": 4,
     "name": "Beta Tester2",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
     "type": "object",
@@ -148,7 +148,7 @@
     "voucher": 100000
   },
   {
-    "id": 5,
+    "did": 5,
     "name": "Halloween1",
     "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
     "type": "object",
@@ -185,7 +185,7 @@
     "voucher": 10
   },
   {
-    "id": 6,
+    "did": 6,
     "name": "Monsta Party #1",
     "external_url": "https://app.monsta.party",
     "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",
@@ -277,7 +277,7 @@
     "voucher": 5
   },
   {
-    "id": 7,
+    "did": 7,
     "name": "OG1",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
     "type": "object",
@@ -314,7 +314,7 @@
     "voucher": 100
   },
   {
-    "id": 8,
+    "did": 8,
     "name": "OG2",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
     "type": "object",
@@ -351,7 +351,7 @@
     "voucher": 5
   },
   {
-    "id": 9,
+    "did": 9,
     "name": "Beta Tester1",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
     "type": "object",
@@ -388,7 +388,7 @@
     "voucher": 10000
   },
   {
-    "id": 10,
+    "did": 10,
     "name": "Beta Tester2",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
     "type": "object",
@@ -425,7 +425,7 @@
     "voucher": 100000
   },
   {
-    "id": 11,
+    "did": 11,
     "name": "Halloween1",
     "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
     "type": "object",
@@ -462,7 +462,7 @@
     "voucher": 10
   },
   {
-    "id": 12,
+    "did": 12,
     "name": "Monsta Party #1",
     "external_url": "https://app.monsta.party",
     "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",
@@ -554,7 +554,7 @@
     "voucher": 5
   },
   {
-    "id": 13,
+    "did": 13,
     "name": "OG1",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
     "type": "object",
@@ -591,7 +591,7 @@
     "voucher": 10
   },
   {
-    "id": 14,
+    "did": 14,
     "name": "OG2",
     "description": "These are the very first Natives that ventured to Oasis. They found Oasis while they were out traveling and quickly found it to be a place called home. They built the foundation to the Oasis that you see today. Without them, Oasis would have been nothing but a bare island.",
     "type": "object",
@@ -628,7 +628,7 @@
     "voucher": 10
   },
   {
-    "id": 15,
+    "did": 15,
     "name": "Beta Tester1",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
     "type": "object",
@@ -665,7 +665,7 @@
     "voucher": 10000
   },
   {
-    "id": 16,
+    "did": 16,
     "name": "Beta Tester2",
     "description": "In the days past where Oasis was facing many difficulties, the Beta Testers, under the lead of Imp Takolvski, went around Oasis helping out fellow Natives. Sally in particular had faced many great difficulties and she took a big part in helping get these costumes for the Beta Testers.",
     "type": "object",
@@ -702,7 +702,7 @@
     "voucher": 100000
   },
   {
-    "id": 17,
+    "did": 17,
     "name": "Halloween1",
     "description": "BOO! It’s Halloooooweeeen. The Natives dorn their Pumpkin Heads as they prepare for a night of Halloween festivities. Instead of the normal Halloween trick or treat, the Pumpkin Heads prefer simply going around playing tricks on people.",
     "type": "object",
@@ -739,7 +739,7 @@
     "voucher": 10
   },
   {
-    "id": 18,
+    "did": 18,
     "name": "Monsta Party #1",
     "external_url": "https://app.monsta.party",
     "description": "Monsta Party is a collection of 10,000 Play-2-Earn NFTs backed by the \"Cake Monster\" DeFi protocol.",

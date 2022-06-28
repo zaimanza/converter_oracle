@@ -10,18 +10,18 @@ router.post('/chcek_nft', async (req, res) => {
         var returnData = false
 
         for (const nft of nfts) {
-            const isNftExists = await axios.post('http://localhost:3005/controller/is_nft_exist', {
-                id: nft.id,
+            const isNftExists = await axios.post('http://localhost:3005/is_nft_exist', {
+                did: nft.did,
             })
             console.log(isNftExists.data)
             if (!isNftExists.data) {
                 console.log("lepas_create")
-                const createdNft = await axios.post('http://localhost:3005/controller/create_nft', {
+                const createdNft = await axios.post('http://localhost:3005/create_nft', {
                     nft: nft,
                 })
             }
             else {
-                const updatedNft = await axios.post('http://localhost:3005/controller/update_nft', {
+                const updatedNft = await axios.post('http://localhost:3005/update_nft', {
                     nft: nft,
                 })
             }

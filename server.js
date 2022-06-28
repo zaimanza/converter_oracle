@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 app.set('view engine', 'ejs')
 
 // Routes which should handle requests
-app.use("/controller", require('./controllers'))
+app.use("/", require('./controllers'))
 
 app.use((req, res, next) => {
     const error = new Error("Not found");
