@@ -7,7 +7,8 @@ const axios = require('axios').default;
 router.post('/chcek_nft', async (req, res) => {
     try {
         const props = req.body
-        console.log('hello')
+        var returnData = false
+
         for (const nft of nfts) {
             const isNftExists = await axios.post('http://localhost:3005/controller/is_nft_exist', {
                 id: nft.id,
@@ -20,20 +21,16 @@ router.post('/chcek_nft', async (req, res) => {
                 })
             }
             else {
-                //     const updatedNft = await axios.post('/update_nft', {
-                //         nft: nft,
-                //     })
+                const updatedNft = await axios.post('http://localhost:3005/controller/update_nft', {
+                    nft: nft,
+                })
             }
+            returnData = true
         }
 
-        var returnData = {}
-        if (JSON.stringify(returnData) != JSON.stringify({})) {
-            res.status(200).json(true)
-        } else {
-            res.status(200).json(false)
-        }
+        return res.status(200).json(returnData)
     } catch (error) {
-        res.status(400).json(error)
+        return res.status(400).json(error)
     }
 })
 
