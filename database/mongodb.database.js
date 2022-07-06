@@ -7,7 +7,7 @@ var client
 
 exports.connectDB = async () => {
     try {
-        client = new MongoClient("mongodb://max:maxmax@18.141.24.92:27017/")
+        client = new MongoClient("mongodb://maxmax:max@18.142.185.51:27017/")
         await client.connect()
         db = await client.db('bigchain')
     } catch (error) {
