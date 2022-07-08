@@ -66,7 +66,7 @@ router.post('/chcek_nft', async (req, res) => {
             // update
             console.log("tak_rela_update")
             var new_datas_to_update = []
-            console.log(oasis_inventory_find?.data?.metadata)
+
             oasis_inventory_find?.data?.metadata?.metadata?.forEach(currentValue => {
                 manipulate_data = currentValue
                 oasis_inventory_metadatas?.forEach((currentValuei, index, arr) => {
@@ -77,7 +77,7 @@ router.post('/chcek_nft', async (req, res) => {
                 })
                 new_datas_to_update.push(manipulate_data)
             });
-            new_datas_to_update.concat(oasis_inventory_metadatas)
+            new_datas_to_update = new_datas_to_update.concat(oasis_inventory_metadatas)
 
             const oasis_inventory_append = await axios.post('http://localhost:3005/oasis_inventory/append', {
                 did: props?.did,
