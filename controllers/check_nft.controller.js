@@ -8,7 +8,6 @@ router.post('/chcek_nft', async (req, res) => {
     try {
         const props = req.body
         var returnData = false
-
         // search user-crypto-wallets
         const moralis_data = await axios.get('https://deep-index.moralis.io/api/v2/' +
             props?.wallet_address
@@ -18,35 +17,79 @@ router.post('/chcek_nft', async (req, res) => {
                 'X-API-Key': 'yF2EqHpOWCYHgZgwF3nb7TTCOs0inQ7ACAdbZTyukQdxHDtIBwf8MdIoUMGh7CdL'
             }
         });
-        // console.log(moralis_data?.data)
+
         const results = moralis_data?.data?.result
+        var oasis_inventory_metadatas = []
         for (const result of results) {
             const isNftExists = await axios.post('http://localhost:3005/is_nft_exist', {
                 did: props?.did,
                 nft: result,
             })
-            // console.log(props?.did)
-            // console.log(result)
-            // console.log(isNftExists.data)
             if (!isNftExists.data) {
-                console.log("lepas_create")
                 const createdNft = await axios.post('http://localhost:3005/create_nft', {
                     did: props?.did,
                     nft: result,
                 })
-                // return res.status(200).json(createdNft)
             }
             else {
-                console.log("lepas_update")
-                const updatedNft = await axios.post('http://localhost:3005/update_nft', {
+                const updatedNft = await axios.post('http://localhost:3005/get_transaction_id', {
                     did: props?.did,
                     nft: result,
                 })
+                var oasis_inventory_metadata = {
+                    asset_id_latest: updatedNft?.data,
+                    amount: result?.amount
+                }
+                oasis_inventory_metadatas.push(oasis_inventory_metadata)
             }
             returnData = true
         }
+        const oasis_inventory_find = await axios.post('http://localhost:3005/oasis_inventory/find', {
+            did: props?.did,
+        })
 
-        return res.status(200).json(returnData)
+        var return_inventory
+        if (!oasis_inventory_find?.data) {
+            // create
+            const oasis_inventory_create = await axios.post('http://localhost:3005/oasis_inventory/create', {
+                did: props?.did,
+                metadata: oasis_inventory_metadatas,
+            })
+            return_inventory = oasis_inventory_create?.data
+        } else {
+            // update
+
+            var new_datas_to_update = []
+            oasis_inventory_find?.data?.metadata?.metadata?.forEach(currentValue => {
+                manipulate_data = currentValue
+                oasis_inventory_metadatas?.forEach((currentValuei, index, arr) => {
+                    if (currentValue?.asset_id_latest === currentValuei?.asset_id_latest) {
+                        manipulate_data = currentValuei
+                        oasis_inventory_metadatas?.splice(index, 1)
+                    }
+                })
+                new_datas_to_update.push(manipulate_data)
+            });
+            new_datas_to_update.concat(oasis_inventory_metadatas)
+
+            const oasis_inventory_append = await axios.post('http://localhost:3005/oasis_inventory/append', {
+                did: props?.did,
+                metadata: new_datas_to_update,
+            })
+
+            if (oasis_inventory_append?.data) {
+                return_inventory = oasis_inventory_append?.data
+            } else {
+                return_inventory = oasis_inventory_find?.data
+            }
+
+
+        }
+        return res.status(200).json({
+            id: return_inventory?.id,
+            asset: return_inventory?.asset,
+            metadata: return_inventory?.metadata,
+        })
     } catch (error) {
         return res.status(400).json(error)
     }
