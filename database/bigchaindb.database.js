@@ -2,56 +2,31 @@ const axios = require('axios').default
 const BigChainDB = require('bigchaindb-driver')
 const bip39 = require('bip39')
 const { Assets } = require('./mongodb.database')
-const API_PATH = 'http://18.141.24.92:8000/api/v1/'
+const API_PATH = 'https://httpsbigchain.appserver.projectoasis.io/api/v1/'
 const conn = new BigChainDB.Connection(API_PATH)
 
-exports.fetchLatestTransaction = async (assetId) => {
+const fetchLatestTransaction = async (assetId) => {
     try {
+        // console.log(assetId)
+        // console.log("qw1")
+        var transaction_data = await conn.listTransactions(assetId)
+        console.log(assetId)
+        // console.log(transaction_data)
+        // console.log("qw2")
+        transaction_data = transaction_data[transaction_data.length - 1]
+        // console.log("qw3")
+        // console.log(transaction_data?.asset?.id ?? transaction_data?.id)
+        var temp_asset = await conn.searchAssets(transaction_data?.asset?.id ?? transaction_data?.id)
+        // console.log("qw4")
+        transaction_data.asset = temp_asset[0].data
+        // console.log(transaction_data)
 
-        const assetsModel = await Assets()
-
-        var list = {}
-        list = await axios.get(`${API_PATH}transactions?asset_id=${assetId}&operation=TRANSFER&last_tx=${true}`).catch(function (error) {
-            if (error) {
-                console.log("Error in axios")
-            }
-        })
-        if (!list) {
-            list = {}
-            list.data = {}
-        }
-
-        if (Object.keys(list.data).length === 0) {
-            list = await axios.get(`${API_PATH}transactions?asset_id=${assetId}&operation=CREATE&last_tx=${true}`).catch(function (error) {
-                if (error)
-                    console.log("Error in axios");
-            })
-        }
-
-        if (!list) {
-            list = {}
-            list.data = {}
-        }
-
-        if (Object.keys(list.data).length === 0) return
-
-        const dataAsset = await assetsModel.find({
-            "id": assetId,
-
-        }, { projection: { data: 1, _id: 0 } }).toArray()
-
-
-        if (Object.keys(list.data).length !== 0) {
-            return await {
-                ...list.data[0],
-                asset: dataAsset[0].data
-            }
-        }
-        return await list.data ?? {}
+        return transaction_data
     } catch (error) {
-        res.status(400).json(error);
+        return
     }
 }
+exports.fetchLatestTransaction = fetchLatestTransaction
 
 exports.createSingleAsset = async ({ asset, metadata, publicKey, privateKey }) => {
     // try {
@@ -107,3 +82,44 @@ exports.updateSingleAsset = async ({ txCreatedID, publicKey, privateKey, metadat
     } catch (error) {
     }
 }
+
+exports.fetchTransaction = async (assetId) => {
+    try {
+        var list = {}
+        list = await axios.get(`${API_PATH}transactions/${assetId}`).catch(function (error) {
+            if (error) {
+                console.log("Error in axios")
+            }
+        })
+
+        if (!list) {
+            list = {}
+        }
+
+        if (Object.keys(list).length === 0) return
+
+        return await list
+    } catch (error) {
+        res.status(400).json(error);
+    }
+}
+
+const searchAssetsBdb = async (string_data) => {
+    let list = await axios(
+        `${API_PATH}assets?search=${string_data}`
+    );
+
+    return list.data
+}
+exports.searchAssetsBdb = searchAssetsBdb
+
+const listOutputsBdb = async (publicKey) => {
+    console.table(publicKey)
+    return await conn.listOutputs(publicKey)
+}
+exports.listOutputsBdb = listOutputsBdb
+
+const listTransactionsBdb = async (assetId) => {
+    return await conn.listTransactions(assetId)
+}
+exports.listTransactionsBdb = listTransactionsBdb

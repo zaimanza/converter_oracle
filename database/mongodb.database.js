@@ -9,7 +9,7 @@ exports.connectDB = async () => {
     try {
         client = new MongoClient("mongodb://maxmax:max@18.142.185.51:27017/")
         await client.connect()
-        db = await client.db('bigchain')
+        db = await client.db('admin')
     } catch (error) {
         console.error(`MongoDB connection error: ${error}`);
     }
